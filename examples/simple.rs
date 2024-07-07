@@ -25,6 +25,7 @@ pub fn main() {
             ..default()
         }))
         .add_plugins(MeshDrawingPlugin)
+        .add_plugins(DefaultPickingPlugins)
         .insert_resource(MeshDrawingPluginSettings {
             extrude_size: 2.0, // config extrude height
             // config input binds...

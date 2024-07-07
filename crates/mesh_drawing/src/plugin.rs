@@ -1,5 +1,5 @@
 use bevy::prelude::*;
-use bevy_mod_picking::DefaultPickingPlugins;
+//use bevy_mod_picking::DefaultPickingPlugins;
 use bevy_mod_raycast::deferred::DeferredRaycastingPlugin;
 use bevy_mod_raycast::prelude::RaycastSystem;
 
@@ -40,7 +40,7 @@ impl Plugin for MeshDrawingPlugin {
             // Set default/init plugin state
             // Plugin settings
             .insert_resource(MeshDrawingPluginSettings::default())
-            .add_plugins(DefaultPickingPlugins)
+            //.add_plugins(DefaultPickingPlugins)
             // Drawing state
             .insert_resource(DrawingState::default())
             // Configure events...

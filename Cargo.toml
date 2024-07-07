@@ -15,6 +15,9 @@ mesh_drawing = { path = "crates/mesh_drawing" }
 
 [dev-dependencies]
 bevy = { version = "0.14.0" }
+bevy_mod_picking = {version = "0.20.0", default_features = true, features = ["selection","highlight","debug",] }
+
+
 [workspace]
 members = ["crates/*"]
 

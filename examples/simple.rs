@@ -14,6 +14,7 @@ use bevy_mesh_drawing::prelude::{
     Canvas, MeshDrawingCamera, MeshDrawingPlugin, MeshDrawingPluginInputBinds,
     MeshDrawingPluginSettings, PolygonalMesh,
 };
+use bevy_mod_picking::prelude::*;
 
 pub fn main() {
     App::new() // App

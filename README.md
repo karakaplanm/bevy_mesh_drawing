@@ -40,6 +40,7 @@ Checkout [`simple.rs`](./examples/simple.rs) in [examples](./examples/).
 
 | bevy | bevy_mesh_drawing |
 | ---- | ----------------- |
+| 0.14 | 0.5.0             |
 | 0.13 | 0.4.0             |
 | 0.12 | 0.3.0             |
 | 0.11 | 0.2.0             |
